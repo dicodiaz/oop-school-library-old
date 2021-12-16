@@ -1,4 +1,7 @@
 class Person
+  attr_reader :id
+  attr_accessor :name, :age
+
   def initialize(age, name = 'Unknown', parent_permission: true)
     @id = Random.rand(1..1000)
     @name = name
@@ -19,3 +22,5 @@ end
 
 person = Person.new(15, 'Steve', parent_permission: false)
 puts person.can_use_services?
+person.name = 'Dico'
+puts person.name
