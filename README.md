@@ -1,45 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Covid Metrics
+# OOP school library
 
-This is a mobile web application that features 2 pages: The homepage and the details page. The homepage displays all today's statistics about confirmed cases, deaths, and recoveries caused by Covid-19 in the world, as a total and separated by countries. When the user clicks on any country, the website navigates to the details page, which contains the detailed statistics about that specific country as a total and separated by regions. Both pages contain a search bar that allows the user to filter by country name. The data is consumed from [Narrativa API](https://covid19tracking.narrativa.com/index_en.html). Built with React, Redux, and Bootstrap.
+Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. This app will allow a you to:
 
-## Mobile
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
 
-![screenshot](./app_screenshot.png)
-
-## Desktop
-
-![screenshot](./app_screenshot-2.png)
+And all of this is built in a beautiful and well-organized way!
 
 ## Built With
 
-- React
-- Redux
-- Bootstrap
+- Ruby
 - VSCode
 - Git & GitHub
-
-## Live Demo
-
-[Live Demo Link](https://dicodiaz-covid-metrics.netlify.app)
 
 ## Getting Started
 
 To get this project up and running, follow these simple steps:
 
-1. Clone the repository into your machine (Or download the .zip file and extract).
-2. Open the project's folder.
-3. Run `npm install`
-4. Run `npm start`
-
-### Setup
-
-Follow the steps described before.
-
-### Run tests
-
-In order to run the predefined tests for this project, run `npm test`
+1. Clone the repository into your machine (Or download the .zip file and extract)
+2. Open the project's folder
+3. ???
+4. Profit
 
 ## Author
 
@@ -58,10 +42,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 ## 📝 License
 
