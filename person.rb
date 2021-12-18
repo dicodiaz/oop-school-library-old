@@ -1,4 +1,5 @@
 require './corrector'
+require './rental'
 
 class Person
   attr_reader :id, :rentals
@@ -21,8 +22,8 @@ class Person
     @name = @corrector.correct_name @name
   end
 
-  def add_rental(rental)
-    rental.person = self
+  def add_rental(book, date)
+    @rentals.push(Rental.new(date, book, self))
   end
 
   private
